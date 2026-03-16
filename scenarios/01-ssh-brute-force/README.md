@@ -23,7 +23,7 @@ index=main sourcetype=linux_secure failed
 ```
 
 ## Findings
-- 600+ failed login attempts detected in Splunk
+- 1100+ failed login attempts detected in Splunk
 - sourcetype: linux_secure
 - Tool used: Hydra
 
@@ -36,3 +36,6 @@ index=main sourcetype=linux_secure failed
 2. Lock targeted account
 3. Check for successful login after brute force
 4. Investigate for persistence if login succeeded
+
+## Screenshot
+![SSH Brute Force Detection](../../screenshots/01-ssh-brute-force.png)
