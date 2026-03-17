@@ -38,4 +38,4 @@ index=main sourcetype=linux_secure failed
 4. Investigate for persistence if login succeeded
 
 ## Screenshot
-![SSH Brute Force Detection](../../screenshots/01-ssh-brute-force.png)
+![SSH Brute Force Detection](../../screenshots/01-ssh-bruteforce.png)
