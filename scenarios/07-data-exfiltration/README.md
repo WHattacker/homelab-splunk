@@ -39,7 +39,7 @@ index=main sourcetype=linux_audit
 ```
 
 ## Findings
-- 15 events captured during SCP exfiltration
+- 17 events captured during SCP exfiltration
 - Auditd captured scp process execution
 - File transfer to external IP detected
 
@@ -56,6 +56,6 @@ index=main sourcetype=linux_audit
 2. Block destination IP immediately
 3. Check how attacker gained access to sensitive file
 4. Review all scp/sftp activity from same user
-5. Notify data protection officer — possible GDPR breach
+5. Notify data protection officer possible GDPR breach
 6. Investigate if other files were exfiltrated
 EOF
